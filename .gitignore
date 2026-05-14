@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+out/
+.env
+.env.local
+
+# Data
+data/
+*.zip
+
+# Model files
+*.pt
+*.onnx
+*.engine
+
+# Outputs
+backend/outputs/
+runs/
+predictions/
+
+# OS
+.DS_Store
