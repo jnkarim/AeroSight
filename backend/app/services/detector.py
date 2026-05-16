@@ -29,7 +29,8 @@ class DetectorService:
 
         start_time = time.time()
 
-        results = self.model(image, conf=confidence)
+        results = self.model(image, conf=confidence, imgsz=416, verbose=False)
+
         result = results[0]
 
         human_count = 0
